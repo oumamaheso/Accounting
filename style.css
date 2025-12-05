@@ -3153,10 +3153,10 @@ left:60px;
     padding: 110px 0px;
   
 }.contact-tabs {
-    position: relative;      
-    top: -80px;
-    right: -70px;
-    gap: 75px;
+    position: relative;     
+    top: -140px;
+    right: -68px;
+    gap: 40px;
   
 }.contact-tabs a{
   width: 0px;
@@ -3212,7 +3212,12 @@ left:60px;
     margin-left:-10px;
 }
 .contact-logo{
-    width: 300px;
+    height: auto !important;
+    max-width: 30vw !important;
+    margin: 0 auto !important;
+    position: relative !important;
+    top: -10px !important;
+    left: -100px !important;
 }.finexBacks {
   position: relative;
   width: 100%;
@@ -3259,7 +3264,7 @@ left:60px;
     margin: 0 auto !important;
     position: relative !important;
     top: -10px !important;
-    left: -110px !important;
+    left: -100px !important;
 }
 .video-container{
   margin-left:-30px;
@@ -3562,6 +3567,14 @@ margin-left:-390px;
   margin-left:-10px;
 }.valueHeading{
   margin-left:-200px;
+}.map-container{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    margin-top:-80px;
+    margin-left:-40px;
 }
    
 }
